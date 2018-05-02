@@ -43,9 +43,7 @@ if(command === 'list'){
   }else{
     console.log("Success");
     console.log("-------");
-    console.log(`Title: ${note.title}`);
-    console.log(`Body: ${note.body}`);
-
+    notes.logChages(note.title,note.body);
   }
 }else if(command === 'remove'){
   var removed = notes.removeNote(argv.title);

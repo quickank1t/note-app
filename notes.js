@@ -48,9 +48,15 @@ var readNote =(title)=>{
   console.log('Read note');
 }
 
+var logChages =(title,body)=>{
+  console.log(`Title:${title}`);
+  console.log(`Body:${body}`);
+}
+
 module.exports = {
   addNote,
   getAll,
   removeNote,
-  readNote
+  readNote,
+  logChages
 };
