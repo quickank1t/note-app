@@ -4,4 +4,4 @@ This is my first node js application. It was a part of the nodejs <a href="https
 
 # About application
 
-used Nodejs v.10.0.0 Along with packages such as lodash, yargs, filesystem.
+used Nodejs v.10.0.0 Along with packages such as lodash, yargs, filesystem, nodemon.
